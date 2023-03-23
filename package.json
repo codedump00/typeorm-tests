@@ -1,0 +1,20 @@
+{
+  "name": "typeorm-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:diagram": "typeorm-uml ormconfig.json",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.10.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.12",
+    "typeorm-uml": "^1.6.5",
+    "typescript": "^5.0.2"
+  }
+}
